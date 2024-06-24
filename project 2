@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>Document and windowobject </title>
+    </head>
+    <body>
+        <p>The window object represents a window in browser. An object of window is created automatically by the browser.Window is the object of browser, it is not the object of javascript. The javascript objects are string, array, date etc.The window object represents an open window in a browser. If a document contain frames (<iframe> tags), the browser creates one window object for the HTML document, and one additional window object for each frame.
+            When an HTML document is loaded into a web browser, it becomes a document object. The document object is the root node of the HTML document. The document object is a property of the window objectRepresents the browser window or frame that displays the web page.
+            Scope: It is the global object in the browser, meaning all global variables and functions are properties of window Browser Control: Methods like window.open() and window.close().
+            Timers: Functions like setTimeout(), setInterval().
+            Dimensions and Position: Properties such as window.innerWidth, window.scrollX.
+            Global Properties: Everything defined in the global scope, including the document object itself, is part of the window.</p>
+            <p> The document object is a property of the window object and represents the content of the web page. It is the entry point to the web page's structure and content, allowing developers to access and manipulate the HTML and CSS. Key features and functionalities include document is an object that gives access to and manipulates the currently loaded HTML document. It is a part of the window global object, which represents the window of the current web page Description. all[] is a versatile array that contains all the HTML elements in a document
+                DOM Manipulation: The document object provides methods to select and manipulate elements, such as getElementById(), querySelector(), createElement(), and appendChild().
+Content Access: Properties like document.title and document.body give access to and allow manipulation of the page's content.
+Event Handling: Methods like addEventListener() allow developers to attach event handlers to elements.
+Forms and Elements: Access and manipulate forms and their elements using properties like document.forms and document.links</p>
+    </body>
+    </html>
+    
+    git init
